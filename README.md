@@ -1,9 +1,14 @@
 # C#
-- C# (C-Sharp) is a programming language developed by Microsoft that runs on the .NET Framework.
+- It is an object-oriented programming language created by Microsoft that runs on the .NET Framework.
 - C# is used to develop web apps, desktop apps, mobile apps, games and much more.
+- C# is pronounced "C-Sharp".
 
 # C# is used for:
 - Mobile applications
 - Desktop applications
 - Web applications
-- C# is pronounced "C-Sharp".
+- Web services
+- Web sites
+- Games
+- VR
+- Database applications
