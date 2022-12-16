@@ -14,7 +14,8 @@
 - Database applications
 
 # Syntax
----
+
+***
 using System;
 
 namespace HelloWorld
@@ -27,4 +28,4 @@ namespace HelloWorld
     }
   }
 }
----
+***
