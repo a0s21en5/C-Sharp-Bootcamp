@@ -15,7 +15,7 @@
 
 # Syntax
 
-***
+```
 using System;
 
 namespace HelloWorld
@@ -28,4 +28,4 @@ namespace HelloWorld
     }
   }
 }
-***
+```
