@@ -41,4 +41,12 @@ namespace HelloWorld
 
 - **Line 5:** class is a container for data and methods, which brings functionality to your program. Every line of code that runs in C# must be inside a class. In our example, we named the class Program.
 
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
+- **Line 7:** Another thing that always appear in a C# program, is the Main method. Any code inside its curly brackets {} will be executed. You don't have to understand the keywords before and after Main. You will get to know them bit by bit while reading this tutorial.
+
+- **Line 9:** Console is a class of the System namespace, which has a WriteLine() method that is used to output/print text. In our example it will output "Hello World!".
+
+If you omit the using System line, you would have to write System.Console.WriteLine() to print/output text.
+
+> **Note:** Every C# statement ends with a semicolon ;.
+
+> **Note:** C# is case-sensitive: "MyClass" and "myclass" has different meaning.
