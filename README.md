@@ -31,4 +31,5 @@ namespace HelloWorld
 ```
 
 # Example explained
-> **Line 1:** using System means that we can use classes from the System namespace.
+
+**Line 1:** using System means that we can use classes from the System namespace.
