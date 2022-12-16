@@ -3,8 +3,8 @@
 - [x] C# is used to develop web apps, desktop apps, mobile apps, games and much more.
 - [x] C# is pronounced "C-Sharp".
 
-# C# is used for:
-- Mobile applications
+> C# is used for:
+>* Mobile applications
 - Desktop applications
 - Web applications
 - Web services
