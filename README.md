@@ -5,13 +5,13 @@
 
 > C# is used for:
 >* Mobile applications
-- Desktop applications
-- Web applications
-- Web services
-- Web sites
-- Games
-- VR
-- Database applications
+>* Desktop applications
+>* Web applications
+>* Web services
+>* Web sites
+>* Games
+>* VR
+>* Database applications
 
 # Syntax
 
