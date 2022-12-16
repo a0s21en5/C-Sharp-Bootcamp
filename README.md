@@ -6,3 +6,4 @@
 - Mobile applications
 - Desktop applications
 - Web applications
+- C# is pronounced "C-Sharp".
