@@ -50,3 +50,6 @@ If you omit the using System line, you would have to write System.Console.WriteL
 > **Note:** Every C# statement ends with a semicolon ;.
 
 > **Note:** C# is case-sensitive: "MyClass" and "myclass" has different meaning.
+
+# **Class**
+class is a template or blueprint that defines by user in which we define the properties & behaviour of objects.
