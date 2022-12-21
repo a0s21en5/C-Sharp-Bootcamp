@@ -56,3 +56,13 @@ class is a template or blueprint that defines by user in which we define the pro
 
 # Object 
 object is a instance of a class that represent the class and an object is an real entity that has state and behaviour.
+
+# Constructor
+constructor is a special type of method whoose name is same as class name, it is invoked automatically at the time of object creation.
+
+# Note
+The main purpose of constructor is used to initialize the data member of new object.
+
+# Types of Constructor
+- [x] Default Constructor
+- [x] Parameter Constructor
