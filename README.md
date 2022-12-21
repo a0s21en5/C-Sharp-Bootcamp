@@ -51,5 +51,8 @@ If you omit the using System line, you would have to write System.Console.WriteL
 
 > **Note:** C# is case-sensitive: "MyClass" and "myclass" has different meaning.
 
-# **Class**
+# Class
 class is a template or blueprint that defines by user in which we define the properties & behaviour of objects.
+
+# Object 
+object is a instance of a class that represent the class and an object is an real entity that has state and behaviour.
