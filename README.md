@@ -75,3 +75,11 @@ All C# variables must be identified with unique names. These unique names are ca
 >* Names should start with a lowercase letter and it cannot contain whitespace
 >* Names are case sensitive ("myVar" and "myvar" are different variables)
 >* Reserved words (like C# keywords, such as int or double) cannot be used as names
+
+# Type Casting
+Type casting is when you assign a value of one data type to another type.
+
+> In C#, there are two types of casting:
+
+>* Implicit Casting (automatically) - converting a smaller type to a larger type size
+>**char -> int -> long -> float -> double
