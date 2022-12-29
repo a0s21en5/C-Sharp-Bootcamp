@@ -141,10 +141,11 @@ A method can contain one or more statements to be executed as a single unit. A m
 
 }
 ```
-> Non-Static Method or Instance Method 
-* Using Object to call a Method
-> Static Method
-* Using Class to call a Method
+> Two Type of Method
+>* Static Method :- Using Class to call a Method
+>* Non-Static Method or Instance Method :- Using Object to call a Method
+
+
 # Method Parameter
 These keywords are applied to the parameters of a method.
 - [x] ref
