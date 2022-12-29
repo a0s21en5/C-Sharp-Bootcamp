@@ -51,7 +51,7 @@ If you omit the using System line, you would have to write System.Console.WriteL
 
 > **Note:** C# is case-sensitive: "MyClass" and "myclass" has different meaning.
 
-# DataTypes
+# Data Types
 It is a strongly-typed language. It means we must declare the type of a variable that indicates the kind of values it is going to store, such as integer, float, decimal, text, etc.
 ```
 string stringVar = "Hello World!!";
@@ -60,3 +60,8 @@ float floatVar = 10.2f;
 char charVar = 'A';
 bool boolVar = true;
 ```
+
+# Variables
+Variables are containers for storing data values.
+
+> type variableName = value;
