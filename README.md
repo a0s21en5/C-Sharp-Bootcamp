@@ -75,3 +75,16 @@ These keywords are applied to the parameters of a method.
 Access keywords are used to access the containing class or the base class of an object or class.
 - [x] this
 - [x] base
+
+# Class
+class is a template or blueprint that defines by user in which we define the properties & behaviour of objects.
+```
+class Student
+{
+    
+}
+```
+A class can contain one or more constructors, fields, methods, properties, delegates, and events. They are called class members. A class and its members can have access modifiers such as public, private, protected, and internal, to restrict access from other parts of the program.
+
+# Field
+A class can have one or more fields. It is a class-level variable that holds a value. Generally, field members should have a private access modifier used with property.
