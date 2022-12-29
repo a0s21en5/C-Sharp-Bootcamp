@@ -84,3 +84,15 @@ Type casting is when you assign a value of one data type to another type.
 * Implicit Casting (automatically) - converting a smaller type to a larger type size ```char -> int -> long -> float -> double```
 
 * Explicit Casting (manually) - converting a larger type to a smaller size type ```double -> float -> long -> int -> char```
+
+> Type Conversion Methods
+```
+int myInt = 10;
+double myDouble = 5.25;
+bool myBool = true;
+
+Console.WriteLine(Convert.ToString(myInt));    // convert int to string
+Console.WriteLine(Convert.ToDouble(myInt));    // convert int to double
+Console.WriteLine(Convert.ToInt32(myDouble));  // convert double to int
+Console.WriteLine(Convert.ToString(myBool));   // convert bool to string
+```
