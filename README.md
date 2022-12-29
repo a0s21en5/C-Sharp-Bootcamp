@@ -55,6 +55,17 @@ If you omit the using System line, you would have to write System.Console.WriteL
 
 C# contains reserved words that have special meaning for the compiler. These reserved words are called "keywords". Keywords cannot be used as an identifier.
 
+# Access Modifier
+
+> **Public** : The Public modifier allows any part of the program in the same assembly or another assembly to access the type and its members.
+
+> Private : The Private modifier restricts other parts of the program from accessing the type and its members. Only code in the same class or struct can access it.
+
+> Internal : The Internal modifier allows other program code in the same assembly to access the type or its members. This is default access modifiers if no modifier is specified.
+
+> Protected : The Protected modifier allows codes in the same class or a class that derives from that class to access the type or its members.
+
+
 # Data Types
 It is a strongly-typed language. It means we must declare the type of a variable that indicates the kind of values it is going to store, such as integer, float, decimal, text, etc.
 ```
