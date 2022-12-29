@@ -51,40 +51,7 @@ If you omit the using System line, you would have to write System.Console.WriteL
 
 > **Note:** C# is case-sensitive: "MyClass" and "myclass" has different meaning.
 
-# Keywords
-
-C# contains reserved words that have special meaning for the compiler. These reserved words are called "keywords". Keywords cannot be used as an identifier.
-
-# Method Parameter
-These keywords are applied to the parameters of a method.
-- [x] ref
-- [x] out
-- [x] params
-
-# Access
-Access keywords are used to access the containing class or the base class of an object or class.
-- [x] this
-- [x] base
-
-# Class
-class is a template or blueprint that defines by user in which we define the properties & behaviour of objects.
-```
-class Student
-{
-    
-}
-```
-A class can contain one or more constructors, fields, methods, properties, delegates, and events. They are called class members. A class and its members can have access modifiers such as public, private, protected, and internal, to restrict access from other parts of the program.
-
-# Access Modifier
-
-> **Public** : The Public modifier allows any part of the program in the same assembly or another assembly to access the type and its members.
-
-> Private : The Private modifier restricts other parts of the program from accessing the type and its members. Only code in the same class or struct can access it.
-
-> Internal : The Internal modifier allows other program code in the same assembly to access the type or its members. This is default access modifiers if no modifier is specified.
-
-> Protected : The Protected modifier allows codes in the same class or a class that derives from that class to access the type or its members.
-
-# Field
-A class can have one or more fields. It is a class-level variable that holds a value. Generally, field members should have a private access modifier used with property.
+# DataTypes
+# variables 
+# Typecasting 
+# Var Keyword
