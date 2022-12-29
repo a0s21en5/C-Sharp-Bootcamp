@@ -147,7 +147,7 @@ A method can contain one or more statements to be executed as a single unit. A m
 
 > According to Parameters there are Two Type of Methods
 >* Parameterized Methods
->* Parameterized Methods
+>* Non-Parameterized Methods
 
 # Method Parameter
 These keywords are applied to the parameters of a method.
