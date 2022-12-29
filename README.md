@@ -51,6 +51,34 @@ If you omit the using System line, you would have to write System.Console.WriteL
 
 > **Note:** C# is case-sensitive: "MyClass" and "myclass" has different meaning.
 
+# Keywords
+
+C# contains reserved words that have special meaning for the compiler. These reserved words are called "keywords". Keywords cannot be used as an identifier.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # OOp
 
