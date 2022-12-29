@@ -64,3 +64,10 @@ C# contains reserved words that have special meaning for the compiler. These res
 > Internal : The Internal modifier allows other program code in the same assembly to access the type or its members. This is default access modifiers if no modifier is specified.
 
 > Protected : The Protected modifier allows codes in the same class or a class that derives from that class to access the type or its members.
+
+# Method Parameter
+These keywords are applied to the parameters of a method.
+
+[x] ref
+[x] out
+[x] params
