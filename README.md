@@ -149,8 +149,16 @@ A method can contain one or more statements to be executed as a single unit. A m
 >* Parameterized Methods
 >* Non-Parameterized Methods
 
+> Method Overloading
+With method overloading, multiple methods can have the same name with different parameters.
+```
+int MyMethod(int x)
+float MyMethod(float x)
+double MyMethod(double x, double y)
+```
+
 # Method Parameter
 These keywords are applied to the parameters of a method.
-- [x] ref
-- [x] out
-- [x] params
+> [x] ref
+> [x] out
+> [x] params
