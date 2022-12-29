@@ -129,3 +129,8 @@ object is a instance of a class that represent the class and an object is an rea
 ```
 Student myobj = new Student();
 ```
+
+# Methods
+A method is a block of code which only runs when it is called. You can pass data, known as parameters, into a method. Why use methods? To reuse code: define the code once, and use it many times.
+
+A method can contain one or more statements to be executed as a single unit. A method may or may not return a value. A method can have one or more input parameters.
