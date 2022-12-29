@@ -123,3 +123,9 @@ A class can contain one or more constructors, fields, methods, properties, deleg
 
 # Field
 A class can have one or more fields. It is a class-level variable that holds a value. Generally, field members should have a private access modifier used with property.
+
+# Object 
+object is a instance of a class that represent the class and an object is an real entity that has state and behaviour.
+```
+Student myobj = new Student();
+```
