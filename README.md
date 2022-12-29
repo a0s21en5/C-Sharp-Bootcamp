@@ -159,6 +159,6 @@ double MyMethod(double x, double y)
 
 # Method Parameter
 These keywords are applied to the parameters of a method.
-> [x] ref
-> [x] out
-> [x] params
+- [x] ref
+- [x] out
+- [x] params
