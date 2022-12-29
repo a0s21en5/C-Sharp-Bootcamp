@@ -54,3 +54,10 @@ If you omit the using System line, you would have to write System.Console.WriteL
 # Keywords
 
 C# contains reserved words that have special meaning for the compiler. These reserved words are called "keywords". Keywords cannot be used as an identifier.
+
+# Access Modifier
+
+> Public
+> Private
+> Protected
+> Internal
