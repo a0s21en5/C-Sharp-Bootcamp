@@ -57,7 +57,7 @@ C# contains reserved words that have special meaning for the compiler. These res
 
 # Access Modifier
 
-> Public : The Public modifier allows any part of the program in the same assembly or another assembly to access the type and its members.
+> ** Public ** : The Public modifier allows any part of the program in the same assembly or another assembly to access the type and its members.
 
 > Private : The Private modifier restricts other parts of the program from accessing the type and its members. Only code in the same class or struct can access it.
 
