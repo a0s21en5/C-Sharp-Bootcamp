@@ -141,10 +141,13 @@ A method can contain one or more statements to be executed as a single unit. A m
 
 }
 ```
-> Two Type of Method
+> Two Type of Methods
 >* Static Method :- Using Class to call a Method
 >* Non-Static Method or Instance Method :- Using Object to call a Method
 
+> According to Parameters there are Two Type of Methods
+>* Parameterized Methods
+>* Parameterized Methods
 
 # Method Parameter
 These keywords are applied to the parameters of a method.
