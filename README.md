@@ -70,3 +70,8 @@ These keywords are applied to the parameters of a method.
 - [x] ref
 - [x] out
 - [x] params
+
+# Access
+Access keywords are used to access the containing class or the base class of an object or class.
+- [x] this
+- [x] base
