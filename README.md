@@ -81,5 +81,5 @@ Type casting is when you assign a value of one data type to another type.
 
 > In C#, there are two types of casting:
 
->* Implicit Casting (automatically) - converting a smaller type to a larger type size
->**char -> int -> long -> float -> double
+* Implicit Casting (automatically) - converting a smaller type to a larger type size 
+>char -> int -> long -> float -> double
