@@ -51,6 +51,10 @@ If you omit the using System line, you would have to write System.Console.WriteL
 
 > **Note:** C# is case-sensitive: "MyClass" and "myclass" has different meaning.
 
+# Keywords
+
+C# contains reserved words that have special meaning for the compiler. These reserved words are called "keywords". Keywords cannot be used as an identifier.
+
 # Data Types
 It is a strongly-typed language. It means we must declare the type of a variable that indicates the kind of values it is going to store, such as integer, float, decimal, text, etc.
 ```
@@ -96,3 +100,15 @@ Console.WriteLine(Convert.ToDouble(myInt));    // convert int to double
 Console.WriteLine(Convert.ToInt32(myDouble));  // convert double to int
 Console.WriteLine(Convert.ToString(myBool));   // convert bool to string
 ```
+# Class
+class is a template or blueprint that defines by user in which we define the properties & behaviour of objects.
+```
+class Student
+{
+    
+}
+```
+A class can contain one or more constructors, fields, methods, properties, delegates, and events. They are called class members. A class and its members can have access modifiers such as public, private, protected, and internal, to restrict access from other parts of the program.
+
+# Field
+A class can have one or more fields. It is a class-level variable that holds a value. Generally, field members should have a private access modifier used with property.
