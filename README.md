@@ -67,7 +67,6 @@ C# contains reserved words that have special meaning for the compiler. These res
 
 # Method Parameter
 These keywords are applied to the parameters of a method.
-
-[x] ref
-[x] out
-[x] params
+- [x] ref
+- [x] out
+- [x] params
