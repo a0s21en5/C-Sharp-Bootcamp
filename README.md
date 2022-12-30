@@ -169,3 +169,8 @@ A constructor is a special type of method which will be called automatically whe
 ```
 <access-modifier> <class-name>(){ }
 ```
+- [x] A constructor name must be the same as a class name.
+- [x] A constructor can be public, private, or protected.
+- [x] The constructor cannot return any value so cannot have a return type.
+- [x] A class can have multiple constructors with different parameters but can only have one parameterless constructor.
+- [x] If no constructor is defined, the C# compiler would create it internally.
