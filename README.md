@@ -185,6 +185,7 @@ In C#, these data types are categorized based on how they store their value in t
 
 * Value Type
 > A data type is a value type if it holds a data value within its own memory space. It means the variables of these data types directly contain values.
+
 For example, consider integer variable ```int i = 100;```
 
 > The following data types are all of value type:
@@ -209,3 +210,17 @@ For example, consider integer variable ```int i = 100;```
 
 For example, consider the following string variable:
 ```string s = "Hello World!!";```
+> The followings are reference type data types:
+>* String
+>* Arrays (even if their elements are value types)
+>* Class
+>* Delegate
+
+* Null
+> The default value of a reference type variable is null when they are not initialized. Null means not refering to any object.
+
+> A value type variable cannot be null because it holds value, not a memory address
+
+* Nullable Types
+> As you know, a value type cannot be assigned a null value. For example, int i = null will give you a compile time error. C# 2.0 introduced nullable types that allow you to assign null to value type variables. You can declare nullable types using Nullable<t> where T is a type.
+```Nullable<int> i = null;```
