@@ -126,6 +126,7 @@ A class can have one or more fields. It is a class-level variable that holds a v
 
 # Object 
 object is a instance of a class that represent the class and an object is an real entity that has state and behaviour.
+You can create one or more objects of a class. Each object can have different values of properties and field but methods and events behaves the same.
 ```
 Student myobj = new Student();
 ```
@@ -174,3 +175,10 @@ A constructor is a special type of method which will be called automatically whe
 - [x] The constructor cannot return any value so cannot have a return type.
 - [x] A class can have multiple constructors with different parameters but can only have one parameterless constructor.
 - [x] If no constructor is defined, the C# compiler would create it internally.
+
+# Value Type and Reference Type
+In C#, these data types are categorized based on how they store their value in the memory.
+
+- [x] Value type
+- [x] Reference type
+- [x] Pointer type
