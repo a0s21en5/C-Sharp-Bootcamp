@@ -181,7 +181,6 @@ In C#, these data types are categorized based on how they store their value in t
 
 - [x] Value type
 - [x] Reference type
-- [x] Pointer type
 
 * Value Type
 > A data type is a value type if it holds a data value within its own memory space. It means the variables of these data types directly contain values.
@@ -224,3 +223,10 @@ For example, consider the following string variable:
 * Nullable Types
 > As you know, a value type cannot be assigned a null value. For example, int i = null will give you a compile time error. C# 2.0 introduced nullable types that allow you to assign null to value type variables. You can declare nullable types using Nullable<t> where T is a type.
 ```Nullable<int> i = null;```
+
+# Arrays
+Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value. Array elements are stored contiguously in the memory.
+```
+Data_Type[] Array_Name;
+string[] cars;
+```
