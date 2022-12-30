@@ -230,3 +230,7 @@ Arrays are used to store multiple values in a single variable, instead of declar
 Data_Type[] Array_Name;
 string[] cars;
 ```
+> an array can be of three types
+>* Single-Dimensional Array
+>* Multi-Dimensional Array
+>* Jagged Array
