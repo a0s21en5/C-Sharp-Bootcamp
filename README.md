@@ -154,3 +154,10 @@ These keywords are applied to the parameters of a method.
 - [x] ref
 - [x] out
 - [x] params
+
+
+# Constructor
+A constructor is a special type of method which will be called automatically when you create an instance of a class. A constructor is defined by using an access modifier and class name
+```
+<access-modifier> <class-name>(){ }
+```
