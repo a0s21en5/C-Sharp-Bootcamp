@@ -182,3 +182,30 @@ In C#, these data types are categorized based on how they store their value in t
 - [x] Value type
 - [x] Reference type
 - [x] Pointer type
+
+* Value Type
+A data type is a value type if it holds a data value within its own memory space. It means the variables of these data types directly contain values.
+For example, consider integer variable ```int i = 100;```
+
+> The following data types are all of value type:
+>* bool
+>* byte
+>* char
+>* decimal
+>* double
+>* enum
+>* float
+>* int
+>* long
+>* sbyte
+>* short
+>* struct
+>* uint
+>* ulong
+>* ushort
+
+* Reference Type
+a reference type doesn't store its value directly. Instead, it stores the address where the value is being stored. In other words, a reference type contains a pointer to another memory location that holds the data.
+
+For example, consider the following string variable:
+```string s = "Hello World!!";```
