@@ -234,3 +234,9 @@ string[] cars;
 >* Single-Dimensional Array
 >* Multi-Dimensional Array
 >* Jagged Array
+
+> Array Declaration and Initialization
+* An array can be declared using by specifying the type of its elements with square brackets.
+```
+int[] evenNums;
+```
