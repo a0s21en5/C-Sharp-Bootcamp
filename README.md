@@ -247,4 +247,20 @@ int[] evenNums = new int[5]{ 2, 4, 6, 8, 10 };
 string[] cities = new string[3]{ "Mumbai", "London", "New York" };
 ```
 # Multidimensional Arrays
-  
+multidimensional arrays up to 32 dimensions. The multidimensional array can be declared by adding commas in the square brackets. For example, [,] declares two-dimensional array, [, ,], and so on. So, in a multidimensional array, no of commas = No of Dimensions - 1.
+```
+int[,] arr2d; // two-dimensional array
+int[, ,] arr3d; // three-dimensional array
+int[, , ,] arr4d ; // four-dimensional array
+int[, , , ,] arr5d; // five-dimensional array
+```
+
+# Jagged Arrays: An Array of Array
+A jagged array is an array of array. Jagged arrays store arrays instead of literal values.
+
+A jagged array is initialized with two square brackets [][]. The first bracket specifies the size of an array, and the second bracket specifies the dimensions of the array which is going to be stored.
+```
+int[][] jArray1 = new int[2][]; // can include two single-dimensional arrays 
+int[][,] jArray2 = new int[3][,]; // can include three two-dimensional arrays
+```
+
