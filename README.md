@@ -263,4 +263,22 @@ A jagged array is initialized with two square brackets [][]. The first bracket s
 int[][] jArray1 = new int[2][]; // can include two single-dimensional arrays 
 int[][,] jArray2 = new int[3][,]; // can include three two-dimensional arrays
 ```
-#
+# Extension Method
+
+Extension methods, as the name suggests, are additional methods. Extension methods allow you to inject additional methods without modifying, deriving or recompiling the original class, struct or interface.
+
+> sealed class
+>* it's mean locked 
+>* in the sealed class we can not change anything
+>* in the sealed class we can not create object
+>* in the sealed class we can not create Inheritance
+
+> Then we can use Extension Method
+
+> a method you can write it by using a static keywords and you can extend the functionality of already existing class
+
+> Extension Method needs to be defined in static
+
+> static should have all its member as static
+
+> First Parameter is binding Parameter
