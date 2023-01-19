@@ -282,3 +282,24 @@ Extension methods, as the name suggests, are additional methods. Extension metho
 > static should have all its member as static
 
 > First Parameter is binding Parameter
+
+
+# MVC
+
+Architecture design pattern to implement UI layer of Application.
+
+MVC stands for Model, View, and Controller. MVC separates an application into three components - Model, View, and Controller.
+
+> Model
+>* .cs files ------ Properties
+>* Model represents the data
+
+> View
+>* View in MVC is a user interface. 
+>* .CSHTML
+>* View is the User Interface.
+
+> Controller
+>* controller handles the user request.
+>* Controller is the request handler.
+
