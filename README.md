@@ -1,4 +1,5 @@
-# C#
+
+# C Sharp
 - [x] It is an object-oriented programming language created by Microsoft that runs on the .NET Framework.
 - [x] C# is used to develop web apps, desktop apps, mobile apps, games and much more.
 - [x] C# is pronounced "C-Sharp".
@@ -29,6 +30,23 @@ namespace HelloWorld
   }
 }
 ```
+# Let's understand the above C# structure.
+
+>*Every .NET application takes the reference of the necessary .NET framework namespaces that it is planning to use with the using keyword, e.g., using System.Text.
+
+>* Declare the namespace for the current class using the namespace keyword.
+
+>* We declared a class using the class keyword: class Program
+
+>* The Main() is a method of Program class is the entry point of the console application.
+
+>* String is a data type.
+
+>* A message is a variable that holds the value of a specified data type.
+
+>* "Hello World!!" is the value of the message variable.
+
+>*  The Console.WriteLine() is a static method, which is used to display a text on the console.
 
 # Example explained
 
@@ -51,6 +69,16 @@ If you omit the using System line, you would have to write System.Console.WriteL
 
 > **Note:** C# is case-sensitive: "MyClass" and "myclass" has different meaning.
 
+# Identifiers
+All C# variables must be identified with unique names. These unique names are called identifiers.
+
+> The general rules for naming variables are:
+>* Names can contain letters, digits and the underscore character (_)
+>* Names must begin with a letter
+>* Names should start with a lowercase letter and it cannot contain whitespace
+>* Names are case sensitive ("myVar" and "myvar" are different variables)
+>* Reserved words (like C# keywords, such as int or double) cannot be used as names
+
 # Keywords
 
 C# contains reserved words that have special meaning for the compiler. These reserved words are called "keywords". Keywords cannot be used as an identifier.
@@ -65,52 +93,6 @@ C# contains reserved words that have special meaning for the compiler. These res
 
 > Protected : The Protected modifier allows codes in the same class or a class that derives from that class to access the type or its members.
 
-
-# Data Types
-It is a strongly-typed language. It means we must declare the type of a variable that indicates the kind of values it is going to store, such as integer, float, decimal, text, etc.
-```
-string stringVar = "Hello World!!";
-int intVar = 100;
-float floatVar = 10.2f;
-char charVar = 'A';
-bool boolVar = true;
-```
-
-# Variables
-Variables are containers for storing data values.
-
-> type variableName = value;
-
-# Identifiers
-All C# variables must be identified with unique names. These unique names are called identifiers.
-
-> The general rules for naming variables are:
->* Names can contain letters, digits and the underscore character (_)
->* Names must begin with a letter
->* Names should start with a lowercase letter and it cannot contain whitespace
->* Names are case sensitive ("myVar" and "myvar" are different variables)
->* Reserved words (like C# keywords, such as int or double) cannot be used as names
-
-# Type Casting
-Type casting is when you assign a value of one data type to another type.
-
-> In C#, there are two types of casting:
-
-* Implicit Casting (automatically) - converting a smaller type to a larger type size ```char -> int -> long -> float -> double```
-
-* Explicit Casting (manually) - converting a larger type to a smaller size type ```double -> float -> long -> int -> char```
-
-> Type Conversion Methods
-```
-int myInt = 10;
-double myDouble = 5.25;
-bool myBool = true;
-
-Console.WriteLine(Convert.ToString(myInt));    // convert int to string
-Console.WriteLine(Convert.ToDouble(myInt));    // convert int to double
-Console.WriteLine(Convert.ToInt32(myDouble));  // convert double to int
-Console.WriteLine(Convert.ToString(myBool));   // convert bool to string
-```
 # Class
 class is a template or blueprint that defines by user in which we define the properties & behaviour of objects.
 ```
@@ -120,6 +102,9 @@ class Student
 }
 ```
 A class can contain one or more constructors, fields, methods, properties, delegates, and events. They are called class members. A class and its members can have access modifiers such as public, private, protected, and internal, to restrict access from other parts of the program.
+
+# Property
+A property encapsulates a private field using setter and getter to assign and retrieve underlying field value.
 
 # Field
 A class can have one or more fields. It is a class-level variable that holds a value. Generally, field members should have a private access modifier used with property.
@@ -164,7 +149,6 @@ These keywords are applied to the parameters of a method.
 - [x] out
 - [x] params
 
-
 # Constructor
 A constructor is a special type of method which will be called automatically when you create an instance of a class. A constructor is defined by using an access modifier and class name
 ```
@@ -175,6 +159,48 @@ A constructor is a special type of method which will be called automatically whe
 - [x] The constructor cannot return any value so cannot have a return type.
 - [x] A class can have multiple constructors with different parameters but can only have one parameterless constructor.
 - [x] If no constructor is defined, the C# compiler would create it internally.
+
+# Namespace
+Namespaces play an important role in managing related classes in C#. The .NET Framework uses namespaces to organize its built-in classes.
+
+# Variables
+Variables are containers for storing data values.
+variables must be declared with the data type. These are called explicitly typed variables.
+> type variableName = value;
+
+# Implicitly Typed Variable
+var keyword to declare method level variables without specifying a data type explicitly.
+
+# Data Types
+It is a strongly-typed language. It means we must declare the type of a variable that indicates the kind of values it is going to store, such as integer, float, decimal, text, etc.
+```
+string stringVar = "Hello World!!";
+int intVar = 100;
+float floatVar = 10.2f;
+char charVar = 'A';
+bool boolVar = true;
+```
+
+# Type Casting
+Type casting is when you assign a value of one data type to another type.
+
+> In C#, there are two types of casting:
+
+* Implicit Casting (automatically) - converting a smaller type to a larger type size ```char -> int -> long -> float -> double```
+
+* Explicit Casting (manually) - converting a larger type to a smaller size type ```double -> float -> long -> int -> char```
+
+> Type Conversion Methods
+```
+int myInt = 10;
+double myDouble = 5.25;
+bool myBool = true;
+
+Console.WriteLine(Convert.ToString(myInt));    // convert int to string
+Console.WriteLine(Convert.ToDouble(myInt));    // convert int to double
+Console.WriteLine(Convert.ToInt32(myDouble));  // convert double to int
+Console.WriteLine(Convert.ToString(myBool));   // convert bool to string
+```
 
 # Value Type and Reference Type
 In C#, these data types are categorized based on how they store their value in the memory.
@@ -263,6 +289,7 @@ A jagged array is initialized with two square brackets [][]. The first bracket s
 int[][] jArray1 = new int[2][]; // can include two single-dimensional arrays 
 int[][,] jArray2 = new int[3][,]; // can include three two-dimensional arrays
 ```
+
 # Extension Method
 
 Extension methods, as the name suggests, are additional methods. Extension methods allow you to inject additional methods without modifying, deriving or recompiling the original class, struct or interface.
