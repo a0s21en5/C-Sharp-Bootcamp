@@ -250,6 +250,98 @@ For example, consider the following string variable:
 > As you know, a value type cannot be assigned a null value. For example, int i = null will give you a compile time error. C# 2.0 introduced nullable types that allow you to assign null to value type variables. You can declare nullable types using Nullable<t> where T is a type.
 ```Nullable<int> i = null;```
 
+# Interface
+an interface can be defined using the interface keyword. An interface can contain declarations of methods, properties, indexers, and events. However, it cannot contain instance fields.
+
+> Note:
+>* An interface cannot contain constructors and fields.
+>* Interface members are by default abstract and public.
+>* Interface can contain declarations of method, properties, indexers, and events.
+>* Interface cannot include private, protected, or internal members. All the members are public by default.
+>* Interface cannot contain fields, and auto-implemented properties.
+>* A class or a struct can implement one or more interfaces implicitly or explicitly. Use public modifier when implementing interface implicitly, whereas don't use it in case of explicit implementation.
+>* Implement interface explicitly using InterfaceName.MemberName.
+>* An interface can inherit one or more interfaces.
+
+# Note:
+>* Interface members must be implemented with the public modifier; otherwise, the compiler will give compile-time errors.
+>* Do not use public modifier with an explicit implementation. It will give a compile-time error.
+
+# Modifiers in Interfaces
+allows private, protected, internal, public, virtual, abstract, sealed, static, extern, and partial modifiers in an interface.
+
+# Ternary Operator
+a decision-making operator ?: which is called the conditional operator or ternary operator. It is the short form of the if else conditions.
+> Syntax:
+>* ```condition ? statement 1 : statement 2```
+
+# Switch Statement
+> The switch statement can be used instead of if else statement when you want to test a variable against three or more conditions.
+```
+switch(match expression/variable)
+{
+    case constant-value:
+        statement(s) to be executed;
+        break;
+    default: 
+        statement(s) to be executed;
+        break;
+}
+```
+
+# Partial Classes
+you can split the implementation of a class, a struct, a method, or an interface in multiple .cs files using the partial keyword. The compiler will combine all the implementation from multiple .cs files when the program is compiled.
+
+> Rules for Partial Classes 
+>* All the partial class definitions must be in the same assembly and namespace.
+>* All the parts must have the same accessibility like public or private, etc.
+>* If any part is declared abstract, sealed or base type then the whole class is declared of the same type.
+>* Different parts can have different base types and so the final class will inherit all the base types.
+>* The Partial modifier can only appear immediately before the keywords class, struct, or interface.
+>* Nested partial types are allowed.
+
+# Partial Methods
+Partial classes or structs can contain a method that split into two separate .cs files of the partial class or struct. One of the two .cs files must contain a signature of the method, and other file can contain an optional implementation of the partial method. Both declaration and implementation of a method must have the partial keyword.
+
+> Rules for Partial Methods
+>* Partial methods must use the partial keyword and must return void.
+>* Partial methods can have in or ref but not out parameters.
+>* Partial methods are implicitly private methods, so cannot be virtual.
+>* Partial methods can be static methods.
+>* Partial methods can be generic.
+
+> Static Class, Methods, Constructors, Fields
+# Static Class
+static means something which cannot be instantiated. You cannot create an object of a static class and cannot access static members using an object.
+
+classes, variables, methods, properties, operators, events, and constructors can be defined as static using the static modifier keyword.
+
+> Rules for Static Class
+>* Static classes cannot be instantiated.
+>* All the members of a static class must be static; otherwise the compiler will give an error.
+>* A static class can contain static variables, static methods, static properties, static operators, static events, and static constructors.
+>* A static class cannot contain instance members and constructors.
+>* Indexers and destructors cannot be static
+>* var cannot be used to define static members. You must specify a type of member explicitly after the static keyword.
+>* Static classes are sealed class and therefore, cannot be inherited.
+>* A static class cannot inherit from other classes.
+>* Static class members can be accessed using ClassName.MemberName.
+>* A static class remains in memory for the lifetime of the application domain in which your program resides.
+
+# Static Methods
+>Rules for Static Methods
+>* Static methods can be defined using the static keyword before a return type and after an access modifier.
+>* Static methods can be overloaded but cannot be overridden.
+>* Static methods can contain local static variables.
+>* Static methods cannot access or call non-static variables unless they are explicitly passed as parameters.
+
+# Static Constructors
+> Rules for Static Constructors
+>* The static constructor is defined using the static keyword and without using access modifiers public, private, or protected.
+>* A non-static class can contain one parameterless static constructor. Parameterized static constructors are not allowed.
+>* Static constructor will be executed only once in the lifetime. So, you cannot determine when it will get called in an application if a class is being used at multiple places.
+>* A static constructor can only access static members. It cannot contain or access instance members.
+
 # Arrays
 Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value. Array elements are stored contiguously in the memory.
 ```
@@ -290,6 +382,15 @@ int[][] jArray1 = new int[2][]; // can include two single-dimensional arrays
 int[][,] jArray2 = new int[3][,]; // can include three two-dimensional arrays
 ```
 
+# Indexers
+# Generics
+# Generic Constraints
+# Generic & Non-generic Collections
+# Tuple
+# ValueTuple
+# Built-in Exception
+# Delegates
+# Events
 # Extension Method
 
 Extension methods, as the name suggests, are additional methods. Extension methods allow you to inject additional methods without modifying, deriving or recompiling the original class, struct or interface.
@@ -310,6 +411,11 @@ Extension methods, as the name suggests, are additional methods. Extension metho
 
 > First Parameter is binding Parameter
 
+# Stream
+# Working with Files & Directories
+# FileInfo
+# Object Initializer
+# 
 
 # MVC
 
