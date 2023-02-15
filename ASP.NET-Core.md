@@ -32,3 +32,25 @@ There are some limitations with the .NET Framework. For example, it only runs on
 
 > Compatibility:
 >* Compatible with .NET Framework and Mono APIs by using .NET Standard specification
+
+
+# .NET Core Composition
+
+* CLI Tools: A set of tooling for development and deployment.
+* Roslyn: Language compiler for C# and Visual Basic
+* CoreFX: Set of framework libraries.
+* CoreCLR: A JIT based CLR (Command Language Runtime).
+
+# ASP.NET Core
+ASP.NET Core is the new version of the ASP.NET web framework mainly targeted to run on .NET Core platform.
+
+# Why ASP.NET Core?
+
+> Supports Multiple Platforms
+> Fast
+> IoC Container
+> Integration with Modern UI Frameworks
+> Hosting
+> Code Sharing
+> Side-by-Side App Versioning
+> Smaller Deployment Footprint
