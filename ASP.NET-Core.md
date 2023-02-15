@@ -47,6 +47,7 @@ ASP.NET Core is the new version of the ASP.NET web framework mainly targeted to 
 # Why ASP.NET Core?
 
 > Supports Multiple Platforms
+
 > Fast
 > IoC Container
 > Integration with Modern UI Frameworks
