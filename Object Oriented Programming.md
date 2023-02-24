@@ -44,8 +44,7 @@ Developing an object-oriented application starts with the business requirement d
 
 > Define relationship
 >* Establish relationships between classes using inheritance and polymorphism.
-* Inheritance
-* Polymorphism
 
->
->* 
+> Use Principles & Patterns
+>* Use the SOLID principles and Design Patterns as and when necessary to make applications flexible.
+
