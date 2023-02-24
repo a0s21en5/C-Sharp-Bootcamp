@@ -30,6 +30,7 @@ namespace HelloWorld
   }
 }
 ```
+
 # Let's understand the above C# structure.
 
 >*Every .NET application takes the reference of the necessary .NET framework namespaces that it is planning to use with the using keyword, e.g., using System.Text.
@@ -87,11 +88,11 @@ C# contains reserved words that have special meaning for the compiler. These res
 
 > **Public** : The Public modifier allows any part of the program in the same assembly or another assembly to access the type and its members.
 
-> Private : The Private modifier restricts other parts of the program from accessing the type and its members. Only code in the same class or struct can access it.
+> **Private** : The Private modifier restricts other parts of the program from accessing the type and its members. Only code in the same class or struct can access it.
 
-> Internal : The Internal modifier allows other program code in the same assembly to access the type or its members. This is default access modifiers if no modifier is specified.
+> **Internal** : The Internal modifier allows other program code in the same assembly to access the type or its members. This is default access modifiers if no modifier is specified.
 
-> Protected : The Protected modifier allows codes in the same class or a class that derives from that class to access the type or its members.
+> **Protected** : The Protected modifier allows codes in the same class or a class that derives from that class to access the type or its members.
 
 # Class
 class is a template or blueprint that defines by user in which we define the properties & behaviour of objects.
@@ -105,9 +106,23 @@ A class can contain one or more constructors, fields, methods, properties, deleg
 
 # Property
 A property encapsulates a private field using setter and getter to assign and retrieve underlying field value.
+```
+class Student
+{
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+}
+```
 
 # Field
 A class can have one or more fields. It is a class-level variable that holds a value. Generally, field members should have a private access modifier used with property.
+```
+class Student
+{
+    public int id;
+
+}
+```
 
 # Object 
 object is a instance of a class that represent the class and an object is an real entity that has state and behaviour.
@@ -170,6 +185,8 @@ variables must be declared with the data type. These are called explicitly typed
 
 # Implicitly Typed Variable
 var keyword to declare method level variables without specifying a data type explicitly.
+The compiler will infer the type of a variable from the expression on the right side of the = operator.
+Implicitly-typed variables must be initialized at the time of declaration; otherwise C# compiler would give an error: Implicitly-typed variables must be initialized.
 
 # Data Types
 It is a strongly-typed language. It means we must declare the type of a variable that indicates the kind of values it is going to store, such as integer, float, decimal, text, etc.
