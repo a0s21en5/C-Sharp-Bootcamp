@@ -31,3 +31,21 @@ There are various object-oriented principles and techniques using which you can 
 >* Encapsulation
 >* Inheritance
 >* Polymorphism
+
+# Steps for Developing Object-oriented Applications
+
+Developing an object-oriented application starts with the business requirement document.
+
+> Abstraction
+>* First, identify essential entities and their characteristic from the business requirement for a high-level view.
+
+> Encapsulation
+>* An implementation of abstraction in code. Create classes and their members with appropriate access modifiers to show functionalities and hide details and complexity.
+
+> Define relationship
+>* Establish relationships between classes using inheritance and polymorphism.
+* Inheritance
+* Polymorphism
+
+>
+>* 
