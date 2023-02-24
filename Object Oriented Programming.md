@@ -20,3 +20,14 @@ Object-oriented programming makes applications flexible (easy to change or add n
 
 > Interfaces
 >* An interface is a contract that defines the set of rules for a particular functionality. They are used effectively with classes using OOP principles like inheritance and polymorphism to make applications more flexible.
+
+# Object-oriented Design Principles
+
+There are various object-oriented principles and techniques using which you can develop applications that are maintainable and extendable.
+
+> The followings are four main principles of object-oriented programming:
+
+>* Abstraction
+>* Encapsulation
+>* Inheritance
+>* Polymorphism
