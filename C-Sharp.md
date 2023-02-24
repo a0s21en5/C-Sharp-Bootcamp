@@ -187,6 +187,7 @@ variables must be declared with the data type. These are called explicitly typed
 > var keyword to declare method level variables without specifying a data type explicitly.
 
 > The compiler will infer the type of a variable from the expression on the right side of the = operator.
+
 > Implicitly-typed variables must be initialized at the time of declaration; otherwise C# compiler would give an error: Implicitly-typed variables must be initialized.
 
 # Data Types
