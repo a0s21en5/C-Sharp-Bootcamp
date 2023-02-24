@@ -190,6 +190,14 @@ variables must be declared with the data type. These are called explicitly typed
 
 > Implicitly-typed variables must be initialized at the time of declaration; otherwise C# compiler would give an error: Implicitly-typed variables must be initialized.
 
+> Multiple declarations of var variables in a single statement are not allowed.
+
+> var cannot be used for function parameters.
+
+> var can be used in for, and foreach loops.
+
+> var can also be used with LINQ queries.
+
 # Data Types
 It is a strongly-typed language. It means we must declare the type of a variable that indicates the kind of values it is going to store, such as integer, float, decimal, text, etc.
 ```
