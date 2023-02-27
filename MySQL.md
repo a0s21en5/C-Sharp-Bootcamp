@@ -28,3 +28,24 @@
 # Relational Database
 
 > A relational database defines database relationships in the form of tables. The tables are related to each other - based on data common to each.
+
+# SQL
+
+* SQL is the standard language for dealing with Relational Databases.
+
+* SQL is used to insert, search, update, and delete database records.
+
+# Note 
+
+> SQL keywords are NOT case sensitive: select is the same as SELECT
+
+> Some database systems require a semicolon at the end of each SQL statement.
+
+# SELECT
+
+The ```SELECT``` statement is used to select data from a database.
+The data returned is stored in a result table, called the result-set.
+
+```
+SELECT * FROM table_name;
+```
