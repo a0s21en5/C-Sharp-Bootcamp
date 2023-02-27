@@ -49,3 +49,18 @@ The data returned is stored in a result table, called the result-set.
 ```
 SELECT * FROM table_name;
 ```
+
+# SELECT DISTINCT
+
+The SELECT DISTINCT statement is used to return only distinct (different) values.
+
+```
+SELECT DISTINCT column1 FROM table_name;
+```
+
+# WHERE Clause
+
+The WHERE clause is used to filter records. It is used to extract only those records that fulfill a specified condition.
+
+> Note:
+>* The WHERE clause is not only used in SELECT statements, it is also used in UPDATE, DELETE, etc.!
