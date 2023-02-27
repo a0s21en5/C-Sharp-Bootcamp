@@ -25,3 +25,6 @@
 
 * A record (or row) is each individual entry that exists in a table.
 
+# Relational Database
+
+> A relational database defines database relationships in the form of tables. The tables are related to each other - based on data common to each.
