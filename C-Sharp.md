@@ -317,10 +317,35 @@ switch(match expression/variable)
         break;
 }
 ```
-  
-# for Loop
 
-  
+# for Loop
+The for keyword indicates a loop in C#. The for loop executes a block of statements repeatedly until the specified condition returns false.
+```
+for (initializer; condition; iterator)
+{
+    //code block 
+}
+```
+
+# while Loop
+C# provides the while loop to repeatedly execute a block of code as long as the specified condition returns true.
+```
+While(condition)
+{
+    //code block
+}
+```
+
+# do while Loop
+The do while loop is the same as while loop except that it executes the code block at least once.
+```
+do
+{
+    //code block
+
+
+} while(condition);
+```
 
 # Partial Classes
 you can split the implementation of a class, a struct, a method, or an interface in multiple .cs files using the partial keyword. The compiler will combine all the implementation from multiple .cs files when the program is compiled.
