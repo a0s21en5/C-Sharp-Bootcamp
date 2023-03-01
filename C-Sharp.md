@@ -235,6 +235,8 @@ In C#, these data types are categorized based on how they store their value in t
 - [x] Value type
 - [x] Reference type
 
+![datatypes](https://user-images.githubusercontent.com/86140629/222085284-5572d4eb-8afa-4d40-914f-833db1f31a20.png)
+
 * Value Type
 > A data type is a value type if it holds a data value within its own memory space. It means the variables of these data types directly contain values.
 
