@@ -53,4 +53,6 @@ from <range variable> in <IEnumerable<T> or IQueryable<T> Collection>
 
 # LINQ Method Syntax
 
-![Alt text](https://www.tutorialsteacher.com/Content/images/linq/linq-method-syntax.png)
+![Alt text](https://www.tutorialsteacher.com/Content/images/linq/linq-method-syntax.png)!
+
+[Alt text](c:/Users/Voldemort/Downloads/linq-execution.png)
