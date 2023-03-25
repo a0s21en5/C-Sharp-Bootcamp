@@ -6,4 +6,6 @@
 
 > It is integrated in C#
 
-![Alt text](c:/Users/Voldemort/Downloads/linq-usage.png)
+![Alt text][def]
+
+[def]: c:/Users/Voldemort/Downloads/linq-usage.png
