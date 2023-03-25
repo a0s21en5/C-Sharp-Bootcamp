@@ -53,6 +53,6 @@ from <range variable> in <IEnumerable<T> or IQueryable<T> Collection>
 
 # LINQ Method Syntax
 
-![Alt text](https://www.tutorialsteacher.com/Content/images/linq/linq-method-syntax.png)!
+> Method syntax (also known as fluent syntax) uses extension methods included in the Enumerable or Queryable static class, similar to how you would call the extension method of any class.
 
-[Alt text](c:/Users/Voldemort/Downloads/linq-execution.png)
+> The compiler converts query syntax into method syntax at compile time.
