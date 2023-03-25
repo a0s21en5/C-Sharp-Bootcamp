@@ -8,7 +8,7 @@
 
 # Advantages of LINQ
 
-> ```Familiar language```: 
+> Familiar language: 
 >* Developers don't have to learn a new query language for each type of data source or data format.
 
 > Less coding: 
@@ -28,3 +28,10 @@
 
 > Shaping data: 
 >* You can retrieve data in different shapes.
+
+# LINQ Query Syntax
+
+> There are two basic ways to write a LINQ query to IEnumerable collection or IQueryable data sources.
+
+>* Query Syntax or Query Expression Syntax
+>* Method Syntax or Method Extension Syntax or Fluent
