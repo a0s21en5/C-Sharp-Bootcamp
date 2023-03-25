@@ -56,3 +56,13 @@ from <range variable> in <IEnumerable<T> or IQueryable<T> Collection>
 > Method syntax (also known as fluent syntax) uses extension methods included in the Enumerable or Queryable static class, similar to how you would call the extension method of any class.
 
 > The compiler converts query syntax into method syntax at compile time.
+
+> As name suggest, Method Syntax is like calling extension method.
+> LINQ Method Syntax aka Fluent syntax because it allows series of extension methods call.
+> Implicitly typed variable - var can be used to hold the result of the LINQ query.
+
+# Lambda Expression
+
+the lambda expression along with LINQ. The lambda expression is a shorter way of representing anonymous method using some special syntax.
+
+# Standard Query Operators
