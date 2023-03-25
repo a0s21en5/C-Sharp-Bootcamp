@@ -8,8 +8,8 @@
 
 # Advantages of LINQ
 
->* Familiar language: 
-> Developers don't have to learn a new query language for each type of data source or data format.
+> Familiar language: 
+>* Developers don't have to learn a new query language for each type of data source or data format.
 
 >* Less coding: 
 > It reduces the amount of code to be written as compared with a more traditional approach.
