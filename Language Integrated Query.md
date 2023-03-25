@@ -8,7 +8,7 @@
 
 # Advantages of LINQ
 
-> Familiar language: 
+> ```Familiar language```: 
 >* Developers don't have to learn a new query language for each type of data source or data format.
 
 > Less coding: 
