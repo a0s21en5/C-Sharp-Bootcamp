@@ -46,3 +46,11 @@ from <range variable> in <IEnumerable<T> or IQueryable<T> Collection>
 
 <select or groupBy operator> <result formation>
 ```
+>* As name suggest, Query Syntax is same like SQL (Structure Query Language) syntax.
+>* Query Syntax starts with from clause and can be end with Select or GroupBy clause.
+>* Use various other opertors like filtering, joining, grouping, sorting operators to construct the desired result.
+>* Implicitly typed variable - var can be used to hold the result of the LINQ query.
+
+# LINQ Method Syntax
+
+![Alt text](https://www.tutorialsteacher.com/Content/images/linq/linq-method-syntax.png)
