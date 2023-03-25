@@ -34,3 +34,15 @@
 > There are two basic ways to write a LINQ query to IEnumerable collection or IQueryable data sources.
 >* Query Syntax or Query Expression Syntax
 >* Method Syntax or Method Extension Syntax or Fluent
+
+> Query Syntax
+>* Query syntax is similar to SQL (Structured Query Language) for the database. It is defined within the C#
+
+>* LINQ Query Syntax:
+```
+from <range variable> in <IEnumerable<T> or IQueryable<T> Collection>
+
+<Standard Query Operators> <lambda expression>
+
+<select or groupBy operator> <result formation>
+```
