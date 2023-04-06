@@ -439,8 +439,11 @@ A jagged array is initialized with two square brackets [][]. The first bracket s
 int[][] jArray1 = new int[2][]; // can include two single-dimensional arrays 
 int[][,] jArray2 = new int[3][,]; // can include three two-dimensional arrays
 ```
-
+  
 # Indexers
+An indexer is a special type of property that allows a class or a structure to be accessed like an array for its internal collection. C# allows us to define custom indexers, generic indexers, and also overload indexers.
+
+An indexer can be defined the same way as property with this keyword and square brackets [].  
 # Generics
 # Generic Constraints
 # Generic & Non-generic Collections
