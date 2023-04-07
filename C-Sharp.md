@@ -444,7 +444,10 @@ int[][,] jArray2 = new int[3][,]; // can include three two-dimensional arrays
 An indexer is a special type of property that allows a class or a structure to be accessed like an array for its internal collection. C# allows us to define custom indexers, generic indexers, and also overload indexers.
 
 An indexer can be defined the same way as property with this keyword and square brackets [].  
+
 # Generics
+Generic means the general form, not specific. In C#, generic means not specific to a particular data type.
+  
 # Generic Constraints
 # Generic & Non-generic Collections
 # Tuple
