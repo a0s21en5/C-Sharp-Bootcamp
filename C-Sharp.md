@@ -449,6 +449,9 @@ An indexer can be defined the same way as property with this keyword and square 
 Generic means the general form, not specific. In C#, generic means not specific to a particular data type.
   
 # Generic Constraints
+C# allows you to use constraints to restrict client code to specify certain types while instantiating generic types. It will give a compile-time error if you try to instantiate a generic type using a type that is not allowed by the specified constraints.
+
+
 # Generic & Non-generic Collections
 # Tuple
 # ValueTuple
