@@ -453,6 +453,12 @@ C# allows you to use constraints to restrict client code to specify certain type
 
 
 # Generic & Non-generic Collections
+C# includes specialized classes that store series of values or objects are called collections.
+
+There are two types of collections available in C#: non-generic collections and generic collections.
+
+The System.Collections namespace contains the non-generic collection types and System.Collections.Generic namespace includes generic collection types.
+  
 # Tuple
 # ValueTuple
 # Built-in Exception
@@ -479,6 +485,8 @@ Extension methods, as the name suggests, are additional methods. Extension metho
 > First Parameter is binding Parameter
 
 # Stream
+  
+  
 # Working with Files & Directories
 # FileInfo
 # Object Initializer
