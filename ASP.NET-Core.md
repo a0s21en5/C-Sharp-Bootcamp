@@ -63,3 +63,6 @@ ASP.NET Core is the new version of the ASP.NET web framework mainly targeted to 
 > Side-by-Side App Versioning
 
 > Smaller Deployment Footprint
+
+
+# Install .NET Core, ASP.NET Core
