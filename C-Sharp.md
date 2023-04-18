@@ -485,7 +485,7 @@ Extension methods, as the name suggests, are additional methods. Extension metho
 > First Parameter is binding Parameter
 
 # Stream
-  
+C# includes following standard IO (Input/Output) classes to read/write from different sources like files, memory, network, isolated storage, etc.
   
 # Working with Files & Directories
 # FileInfo
