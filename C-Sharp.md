@@ -460,6 +460,7 @@ There are two types of collections available in C#: non-generic collections and 
 The System.Collections namespace contains the non-generic collection types and System.Collections.Generic namespace includes generic collection types.
   
 # Tuple
+- Tuple
 # ValueTuple
 # Built-in Exception
 # Delegates
