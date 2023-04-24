@@ -1,0 +1,8 @@
+E:\The Complete C Sharp Bootcamp\Task\ThirdTask\bin\Debug\ThirdTask.exe.config
+E:\The Complete C Sharp Bootcamp\Task\ThirdTask\bin\Debug\ThirdTask.exe
+E:\The Complete C Sharp Bootcamp\Task\ThirdTask\bin\Debug\ThirdTask.pdb
+E:\The Complete C Sharp Bootcamp\Task\ThirdTask\obj\Debug\ThirdTask.csproj.AssemblyReference.cache
+E:\The Complete C Sharp Bootcamp\Task\ThirdTask\obj\Debug\ThirdTask.csproj.SuggestedBindingRedirects.cache
+E:\The Complete C Sharp Bootcamp\Task\ThirdTask\obj\Debug\ThirdTask.csproj.CoreCompileInputs.cache
+E:\The Complete C Sharp Bootcamp\Task\ThirdTask\obj\Debug\ThirdTask.exe
+E:\The Complete C Sharp Bootcamp\Task\ThirdTask\obj\Debug\ThirdTask.pdb
