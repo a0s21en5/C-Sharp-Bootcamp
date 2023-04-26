@@ -461,6 +461,8 @@ The System.Collections namespace contains the non-generic collection types and S
   
 # Tuple
 - Tuple
+A tuple is a data structure that contains a sequence of elements of different data types.
+  
 # ValueTuple
 # Built-in Exception
 # Delegates
