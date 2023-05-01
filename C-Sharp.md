@@ -1,4 +1,3 @@
-
 # C Sharp(C#) 
 - [x] It is an object-oriented programming language created by Microsoft that runs on the .NET Framework.
 - [x] C# is used to develop web apps, desktop apps, mobile apps, games and much more.
@@ -464,9 +463,12 @@ The System.Collections namespace contains the non-generic collection types and S
 A tuple is a data structure that contains a sequence of elements of different data types.
   
 # ValueTuple
+
 # Built-in Exception
 # Delegates
 # Events
+An event is a notification sent by an object to signal the occurrence of an action. Events in .NET follow the observer design pattern.
+  
 # Extension Method
 
 Extension methods, as the name suggests, are additional methods. Extension methods allow you to inject additional methods without modifying, deriving or recompiling the original class, struct or interface.
