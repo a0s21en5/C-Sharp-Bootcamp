@@ -9,4 +9,4 @@ The Complete C Sharp Bootcamp
 >* Language Integrated Query.md
 >* MySQL.md
 >* Object Oriented Programming.md
->* SQL Server.md
+
