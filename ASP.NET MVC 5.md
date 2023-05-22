@@ -30,3 +30,25 @@ MVC stands for Model, View, and Controller. MVC separates an application into th
 * Model represents the data
 * View is the User Interface.
 * Controller is the request handler.
+
+
+# MVC Folder Structure
+**Models:** The Models folder typically contains classes that represent the data and business logic of your application. These classes may correspond to database tables or other data sources.
+
+**Views:** The Views folder contains the user interface components of your application. Each view corresponds to a specific action or page and is responsible for presenting data to the user.
+
+**Controllers:** The Controllers folder contains classes that handle user requests, interact with models, and determine which views to render. Controllers contain action methods that respond to specific URLs or routes.
+
+**Areas:** If your application has distinct functional areas, you can use the Areas folder to organize them. Each area can have its own subfolder structure with models, views, and controllers specific to that area.
+
+**Scripts:** The Scripts folder typically contains client-side JavaScript files used in your application. These files can provide interactivity and enhance the user experience.
+
+**Content:** The Content folder is used to store static files like CSS (Cascading Style Sheets), images, and other resources that are used to style and enhance the appearance of your application.
+
+**App_Start:** The App_Start folder contains configuration files and code that are executed when your application starts up. This includes registering routes, filters, and other application-level settings.
+
+**App_Data:** The App_Data folder is used to store data files that are not directly accessible to users, such as databases or other data stores.
+
+**App_GlobalResources and App_LocalResources:** These folders are used for storing resource files that contain localized strings or other resources used in your application.
+
+**Areas:** If you have divided your application into separate areas, each area can have its own set of folders (Models, Views, and Controllers) to organize the code specific to that area.
