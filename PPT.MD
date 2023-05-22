@@ -134,3 +134,23 @@ By leveraging these interactions, developers can build a flexible and customized
 
 
 # Slide 4:
+
+# Middleware Configuration
+
+Middleware components in ASP.NET Core are used to process HTTP requests and perform various tasks such as authentication, logging, error handling, and routing. The order in which middleware components are registered is important as it determines the processing flow of requests.
+
+## Usage of UseMiddleware Extension Method
+
+The `UseMiddleware` extension method is used to add middleware components to the request pipeline. It is typically called within the `Configure` method of the `Startup` class.
+
+Example usage:
+
+```csharp
+public void Configure(IApplicationBuilder app)
+{
+    // Other configuration code...
+
+    app.UseMiddleware<CustomMiddleware>();
+
+    // More configuration code...
+}
