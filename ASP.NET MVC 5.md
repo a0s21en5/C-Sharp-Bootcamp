@@ -5,3 +5,6 @@
 > ASP.NET MVC 5 is a web framework based on Model-View-Controller (MVC) architecture. 
 
 > Developers can build dynamic web applications using ASP.NET MVC framework that enables a clean separation of concerns, fast development, and TDD friendly.
+
+# MVC
+MVC stands for Model, View, and Controller. MVC separates an application into three components - Model, View, and Controller.
