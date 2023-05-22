@@ -132,3 +132,19 @@ By leveraging these interactions, developers can build a flexible and customized
 
 *Note: This document is written in Markdown format.*
 
+
+# Slide 4:
+# Middleware Configuration in Startup.cs
+
+The `Startup.cs` file in an ASP.NET Core application is responsible for configuring various middleware components that handle incoming requests and outgoing responses. Middleware components are software components that participate in the request-response pipeline and perform specific tasks such as authentication, logging, error handling, and more.
+
+## UseMiddleware Extension Method
+
+The `UseMiddleware` extension method is used to add custom middleware components to the request pipeline. It allows you to specify a class or lambda expression that represents the middleware component to be added. This method is typically called within the `Configure` method of the `Startup` class.
+
+The `UseMiddleware` method can be used in two ways:
+
+1. **Using a class**: You can pass a class type representing the middleware component to be added. For example:
+
+```csharp
+app.UseMiddleware<CustomMiddleware>();
