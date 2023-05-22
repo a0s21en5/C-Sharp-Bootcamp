@@ -66,7 +66,23 @@ ASP.NET Core is the new version of the ASP.NET web framework mainly targeted to 
 
 - **Smaller Deployment Footprint**: ASP.NET Core application runs on .NET Core, which is smaller than the full .NET Framework. So, the application which uses only a part of .NET CoreFX will have a smaller deployment size. This reduces the deployment footprint.
 
+## .NET Core vs ASP.NET Core
 
+**.NET Core:**
 
-# .NET Core vs ASP.NET Core
+- Open-source and Cross-platform
+- .NET Core is a runtime to execute applications built on it.
+- Install .NET Core Runtime to run applications and install .NET Core SDK to build applications.
+- [.NET Core GitHub Repository (Runtime)](https://github.com/dotnet/runtime)
+- [.NET Core GitHub Repository (SDK)](https://github.com/dotnet/sdk)
+- Latest version: .NET Core 3.1
 
+**ASP.NET Core:**
+
+- Open-source and Cross-platform
+- ASP.NET Core is a web framework to build web apps, IoT apps, and mobile backends on top of .NET Core or .NET Framework.
+- There is no separate runtime and SDK available for ASP.NET Core. The .NET Core runtime and SDK include ASP.NET Core libraries.
+- [.NET Core GitHub Repository](https://github.com/dotnet/aspnetcore)
+- Latest version: ASP.NET Core 3.1
+
+Note: There is no separate versioning for ASP.NET Core. It aligns with the versions of .NET Core.
