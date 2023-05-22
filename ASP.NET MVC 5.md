@@ -59,9 +59,16 @@ MVC stands for Model, View, and Controller. MVC separates an application into th
 
 **Web.config:** Web.config file contains application-level configurations.
 
-# Points to Remember
+# Routing in MVC
 * Routing plays important role in the MVC framework. Routing maps URL to physical file or class (controller class in MVC).
 * Route contains URL pattern and handler information. URL pattern starts after the domain name.
 * Routes can be configured in RouteConfig class. Multiple custom routes can also be configured.
 * Route constraints apply restrictions on the value of parameters.
 * Route must be registered in Application_Start event in Global.ascx.cs file.
+
+# Controllers
+* The Controller handles incoming URL requests. MVC routing sends requests to the appropriate controller and action method based on URL and configured Routes.
+* All the public methods in the Controller class are called Action methods.
+* The Controller class must be derived from System.Web.Mvc.Controller class.
+* The Controller class name must end with "Controller".
+* A new controller can be created using different scaffolding templates. You can create a custom scaffolding template also.
