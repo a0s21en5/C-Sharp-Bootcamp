@@ -50,21 +50,25 @@ ASP.NET Core is the new version of the ASP.NET web framework mainly targeted to 
 
 # Why ASP.NET Core?
 
-> Supports Multiple Platforms
+## Features of ASP.NET Core
 
-> Fast
+- **Supports Multiple Platforms**: ASP.NET Core applications can run on Windows, Linux, and Mac. So you don't need to build different apps for different platforms using different frameworks.
 
-> IoC Container
+- **Fast**: ASP.NET Core no longer depends on System.Web.dll for browser-server communication. ASP.NET Core allows us to include packages that we need for our application. This reduces the request pipeline and improves performance and scalability.
 
-> Integration with Modern UI Frameworks
+- **IoC Container**: It includes the built-in IoC container for automatic dependency injection, which makes it maintainable and testable.
 
-> Hosting
+- **Integration with Modern UI Frameworks**: It allows you to use and manage modern UI frameworks such as AngularJS, ReactJS, Umber, Bootstrap, etc. using Bower (a package manager for the web).
 
-> Code Sharing
+- **Hosting**: ASP.NET Core web application can be hosted on multiple platforms with any web server such as IIS, Apache, etc. It is not dependent only on IIS as a standard .NET Framework.
 
-> Side-by-Side App Versioning
+- **Code Sharing**: It allows you to build a class library that can be used with other .NET frameworks such as .NET Framework 4.x or Mono. Thus a single code base can be shared across frameworks.
 
-> Smaller Deployment Footprint
+- **Side-by-Side App Versioning**: ASP.NET Core runs on .NET Core, which supports the simultaneous running of multiple versions of applications.
+
+- **Smaller Deployment Footprint**: ASP.NET Core application runs on .NET Core, which is smaller than the full .NET Framework. So, the application which uses only a part of .NET CoreFX will have a smaller deployment size. This reduces the deployment footprint.
 
 
-# Install .NET Core, ASP.NET Core
+
+# .NET Core vs ASP.NET Core
+
