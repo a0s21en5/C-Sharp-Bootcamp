@@ -154,6 +154,7 @@ public void Configure(IApplicationBuilder app)
 
     // More configuration code...
 }
+```
 
 
 # Slide 5:
