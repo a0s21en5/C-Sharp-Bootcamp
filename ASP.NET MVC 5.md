@@ -58,3 +58,10 @@ MVC stands for Model, View, and Controller. MVC separates an application into th
 **Packages.config:** Packages.config file is managed by NuGet to track what packages and versions you have installed in the application.
 
 **Web.config:** Web.config file contains application-level configurations.
+
+# Points to Remember
+* Routing plays important role in the MVC framework. Routing maps URL to physical file or class (controller class in MVC).
+* Route contains URL pattern and handler information. URL pattern starts after the domain name.
+* Routes can be configured in RouteConfig class. Multiple custom routes can also be configured.
+* Route constraints apply restrictions on the value of parameters.
+* Route must be registered in Application_Start event in Global.ascx.cs file.
