@@ -52,3 +52,9 @@ MVC stands for Model, View, and Controller. MVC separates an application into th
 **App_GlobalResources and App_LocalResources:** These folders are used for storing resource files that contain localized strings or other resources used in your application.
 
 **Areas:** If you have divided your application into separate areas, each area can have its own set of folders (Models, Views, and Controllers) to organize the code specific to that area.
+
+**Global.asax:** Global.asax file allows you to write code that runs in response to application-level events, such as Application_BeginRequest, application_start, application_error, session_start, session_end, etc.
+
+**Packages.config:** Packages.config file is managed by NuGet to track what packages and versions you have installed in the application.
+
+**Web.config:** Web.config file contains application-level configurations.
