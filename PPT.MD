@@ -67,4 +67,24 @@ Using Middleware for customization offers several benefits:
 
 5. **Improved Development Workflow**: By separating cross-cutting concerns into Middleware components, developers can focus on the core functionality of their endpoints. This separation enhances the development workflow, as different team members can work independently on specific Middleware components.
 
-*Note: This document is written in Markdown format.*
+# Slide 3:
+# Middleware Pipeline
+
+The Middleware pipeline in ASP.NET Core defines the sequence of Middleware components through which a request flows and a response is generated. It provides a structured way to process incoming requests and handle cross-cutting concerns. Let's explore the description of the request/response flow, a visual representation of the pipeline, and how Middleware components interact.
+
+## Request/Response Flow in the Middleware Pipeline
+
+1. **Request Flow**:
+   - When a request arrives at the ASP.NET Core application, it enters the Middleware pipeline.
+   - The request flows through each Middleware component in the pipeline, one after another, in the order they are registered.
+   - Each Middleware component has the opportunity to inspect, modify, or short-circuit the request before passing it to the next component.
+
+2. **Response Flow**:
+   - After the request has been processed by all the Middleware components, the response flow begins.
+   - The response flows back through the pipeline, in reverse order, starting from the last Middleware component.
+   - Each Middleware component can inspect or modify the response before passing it to the next component.
+
+## Visual Representation of the Middleware Pipeline
+
+Here's a visual representation of the Middleware pipeline:
+
