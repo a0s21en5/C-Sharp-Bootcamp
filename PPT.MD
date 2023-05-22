@@ -113,7 +113,8 @@ Incoming Request       ↓
 Outgoing Response```
 
 
-In this representation, each Middleware component is represented by a box, and the request/response flow is depicted with arrows.
+
+# In this representation, each Middleware component is represented by a box, and the request/response flow is depicted with arrows.
 
 ## Interaction of Middleware Components
 
