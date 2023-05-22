@@ -112,23 +112,6 @@ Incoming Request       ↓
 +---------------------+
 Outgoing Response```
 
+In this representation, each Middleware component is represented by a box, and the request/response flow is depicted with arrows.
 
-
-# In this representation, each Middleware component is represented by a box, and the request/response flow is depicted with arrows.
-
-## Interaction of Middleware Components
-
-Middleware components interact with each other in the following ways:
-
-- **Order of Execution**: The order in which Middleware components are added to the pipeline determines the sequence of their execution. Each component processes the request and response in the order defined.
-
-- **Next Middleware**: Each Middleware component has access to a reference to the next Middleware component in the pipeline. It can choose to call the next component explicitly or short-circuit the pipeline by not calling it.
-
-- **Request Modification**: Middleware components can modify the request, such as adding headers, altering parameters, or performing validations. These modifications can be made before passing the request to the next Middleware component.
-
-- **Response Modification**: Middleware components can also modify the response, such as adding headers, transforming content, or modifying status codes. These modifications can be made before passing the response to the next Middleware component in the reverse order.
-
-By leveraging these interactions, developers can build a flexible and customized pipeline to handle various aspects of request processing and response generation.
-
-*Note: This document is written in Markdown format.*
 
