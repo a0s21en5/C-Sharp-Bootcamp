@@ -113,7 +113,9 @@ Note: Make sure to check for the latest version of ASP.NET Core on the official 
    dotnet new web -n MyAspNetCoreApp
    
 4. Change into the project directory: 
-   ```cd MyAspNetCoreApp```
+   
+   ``shell 
+   cd MyAspNetCoreApp
    
 5. Restore the project dependencies by running the following command: 
    ```dotnet restore```
