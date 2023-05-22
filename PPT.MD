@@ -87,6 +87,7 @@ The Middleware pipeline in ASP.NET Core defines the sequence of Middleware compo
 ## Visual Representation of the Middleware Pipeline
 
 Here's a visual representation of the Middleware pipeline:
+```
 Incoming Request       ↓
 +---------------------+
 |   Middleware 1      |
@@ -109,7 +110,7 @@ Incoming Request       ↓
 +---------------------+
 |   Middleware 1      |
 +---------------------+
-Outgoing Response
+Outgoing Response```
 
 
 In this representation, each Middleware component is represented by a box, and the request/response flow is depicted with arrows.
