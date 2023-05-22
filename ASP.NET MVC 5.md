@@ -84,3 +84,30 @@ MVC stands for Model, View, and Controller. MVC separates an application into th
 * The Action method can include Nullable type parameters.
 
 ![Action Method](https://github.com/a0s21en5/The-Complete-C-Sharp-Bootcamp/assets/86140629/1bd3ee23-32cb-4d4a-9ecd-416b7148971b)
+
+
+# Action Selectors in MVC
+
+In ASP.NET MVC (Model-View-Controller), action selectors are attributes that are applied to action methods in controllers to determine how the methods are selected and invoked in response to incoming requests. Action selectors help in routing requests to the appropriate action method based on various criteria.
+
+Here are some commonly used action selectors in MVC:
+
+1. **HttpGet**: The `[HttpGet]` attribute specifies that the action method should only be invoked for HTTP GET requests. This is the default HTTP verb for retrieving data.
+
+2. **HttpPost**: The `[HttpPost]` attribute specifies that the action method should only be invoked for HTTP POST requests. This is typically used for submitting data or performing operations that modify data.
+
+3. **HttpPut**: The `[HttpPut]` attribute specifies that the action method should only be invoked for HTTP PUT requests. PUT is often used for updating resources.
+
+4. **HttpDelete**: The `[HttpDelete]` attribute specifies that the action method should only be invoked for HTTP DELETE requests. DELETE is used for deleting resources.
+
+5. **AcceptVerbs**: The `[AcceptVerbs]` attribute allows you to specify multiple HTTP verbs for an action method. You can pass an array of HTTP verb strings as parameters to the attribute. For example, `[AcceptVerbs(HttpVerbs.Get, HttpVerbs.Post)]`.
+
+6. **ActionName**: The `[ActionName]` attribute allows you to specify a different name for an action method than its actual method name. This can be useful when you want to have a more user-friendly or SEO-friendly URL.
+
+7. **NonAction**: The `[NonAction]` attribute is applied to methods that should not be treated as action methods. These methods are typically utility methods or helper methods within a controller.
+
+8. **AllowAnonymous**: The `[AllowAnonymous]` attribute allows anonymous access to an action method that is otherwise protected by authentication or authorization filters. It overrides any global or controller-level authorization rules.
+
+9. **Route**: The `[Route]` attribute allows you to define custom routing patterns for an action method. It provides more flexibility in specifying the URL pattern for accessing the action method.
+
+Action selectors help in fine-tuning the routing and behavior of action methods in an MVC application. They provide control over which methods are invoked for specific HTTP verbs, allow customization of method names, and enable route customization. By using these attributes, you can design your application's routing and action method invocation based on specific requirements and constraints.
