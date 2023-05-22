@@ -100,3 +100,23 @@ Note: There is no separate versioning for ASP.NET Core. It aligns with the versi
 5. Follow the instructions provided by the installer to complete the installation of .NET Core SDK, which includes ASP.NET Core libraries.
 
 Note: Make sure to check for the latest version of ASP.NET Core on the official website and download the corresponding SDK for the best compatibility and features.
+
+## Creating an ASP.NET Core Application
+
+1. Open a terminal or command prompt.
+
+2. Navigate to the directory where you want to create your ASP.NET Core application.
+
+3. Run the following command to create a new ASP.NET Core project:
+
+   ```shell
+   dotnet new web -n MyAspNetCoreApp
+   
+4. Change into the project directory: ```cd MyAspNetCoreApp
+```
+5. Restore the project dependencies by running the following command: ```dotnet restore
+```
+6. Build the application: ```dotnet build
+```
+7. Run the application: ```dotnet run
+```
