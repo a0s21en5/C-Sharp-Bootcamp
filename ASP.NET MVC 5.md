@@ -82,3 +82,5 @@ MVC stands for Model, View, and Controller. MVC separates an application into th
 * ActionResult is a base class of all the result type which returns from Action method.
 * The base Controller class contains methods that returns appropriate result type e.g. View(), Content(), File(), JavaScript() etc.
 * The Action method can include Nullable type parameters.
+
+![Action Method](https://github.com/a0s21en5/The-Complete-C-Sharp-Bootcamp/assets/86140629/1bd3ee23-32cb-4d4a-9ecd-416b7148971b)
