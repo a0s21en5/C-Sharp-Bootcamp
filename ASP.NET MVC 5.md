@@ -72,3 +72,13 @@ MVC stands for Model, View, and Controller. MVC separates an application into th
 * The Controller class must be derived from System.Web.Mvc.Controller class.
 * The Controller class name must end with "Controller".
 * A new controller can be created using different scaffolding templates. You can create a custom scaffolding template also.
+
+# Action method
+* All the public methods in the Controller class are called Action methods.
+* The Action method has the following restrictions.
+    - Action method must be public. It cannot be private or protected.
+    - Action method cannot be overloaded.
+    - Action method cannot be a static method.
+* ActionResult is a base class of all the result type which returns from Action method.
+* The base Controller class contains methods that returns appropriate result type e.g. View(), Content(), File(), JavaScript() etc.
+* The Action method can include Nullable type parameters.
