@@ -86,3 +86,17 @@ ASP.NET Core is the new version of the ASP.NET web framework mainly targeted to 
 - Latest version: ASP.NET Core 3.1
 
 Note: There is no separate versioning for ASP.NET Core. It aligns with the versions of .NET Core.
+
+## Installing ASP.NET Core
+
+1. Visit the official [ASP.NET Core website](https://dotnet.microsoft.com/).
+
+2. Click on the "Download .NET" button located on the homepage.
+
+3. On the download page, select the appropriate version of .NET Core SDK for your operating system and click on the download link.
+
+4. Once the download is complete, run the installer to start the installation process.
+
+5. Follow the instructions provided by the installer to complete the installation of .NET Core SDK, which includes ASP.NET Core libraries.
+
+Note: Make sure to check for the latest version of ASP.NET Core on the official website and download the corresponding SDK for the best compatibility and features.
