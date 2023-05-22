@@ -43,16 +43,7 @@ There are some limitations with the .NET Framework. For example, it only runs on
 * CoreFX: Set of framework libraries.
 * CoreCLR: A JIT based CLR (Command Language Runtime).
 
-
-
 ![Screenshot 2023-05-22 142134](https://github.com/a0s21en5/The-Complete-C-Sharp-Bootcamp/assets/86140629/23cf9fdd-42e8-43f4-b689-bf443d60af2b)
-
-
-
-
-
-
-
 
 # ASP.NET Core
 ASP.NET Core is the new version of the ASP.NET web framework mainly targeted to run on .NET Core platform.
