@@ -50,8 +50,6 @@ ASP.NET Core is the new version of the ASP.NET web framework mainly targeted to 
 
 # Why ASP.NET Core?
 
-## Features of ASP.NET Core
-
 - **Supports Multiple Platforms**: ASP.NET Core applications can run on Windows, Linux, and Mac. So you don't need to build different apps for different platforms using different frameworks.
 
 - **Fast**: ASP.NET Core no longer depends on System.Web.dll for browser-server communication. ASP.NET Core allows us to include packages that we need for our application. This reduces the request pipeline and improves performance and scalability.
