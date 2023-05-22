@@ -9,7 +9,8 @@
 # MVC
 MVC stands for Model, View, and Controller. MVC separates an application into three components - Model, View, and Controller.
 
-**Model**: Model represents the shape of the data. A class in C# is used to describe a model. Model objects store data retrieved from the database.
+> **Model**: 
+> Model represents the shape of the data. A class in C# is used to describe a model. Model objects store data retrieved from the database.
 
 Model represents the data.
 
