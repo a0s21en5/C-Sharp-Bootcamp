@@ -114,13 +114,19 @@ Note: Make sure to check for the latest version of ASP.NET Core on the official 
    
 4. Change into the project directory: 
    
-   ``shell 
+   ```shell 
    cd MyAspNetCoreApp
    
 5. Restore the project dependencies by running the following command: 
-   ```dotnet restore```
+   
+   ```shell
+   dotnet restore
    
 6. Build the application: 
-   ```dotnet build```
+   
+   ```shell
+   dotnet build
 7. Run the application: 
-   ```dotnet run```
+   
+   ```shell
+   dotnet run
