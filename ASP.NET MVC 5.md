@@ -109,5 +109,3 @@ Here are some commonly used action selectors in MVC:
 8. **AllowAnonymous**: The `[AllowAnonymous]` attribute allows anonymous access to an action method that is otherwise protected by authentication or authorization filters. It overrides any global or controller-level authorization rules.
 
 9. **Route**: The `[Route]` attribute allows you to define custom routing patterns for an action method. It provides more flexibility in specifying the URL pattern for accessing the action method.
-
-Action selectors help in fine-tuning the routing and behavior of action methods in an MVC application. They provide control over which methods are invoked for specific HTTP verbs, allow customization of method names, and enable route customization. By using these attributes, you can design your application's routing and action method invocation based on specific requirements and constraints.
