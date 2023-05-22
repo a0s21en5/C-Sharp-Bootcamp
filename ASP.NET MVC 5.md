@@ -19,4 +19,4 @@ MVC stands for Model, View, and Controller. MVC separates an application into th
 >* Controller is the request handler.
 
 > The following figure illustrates the interaction between Model, View, and Controller.
-> ![mvc-architecture](https://github.com/a0s21en5/The-Complete-C-Sharp-Bootcamp/assets/86140629/3cc1922a-a9dc-4d12-8d59-f3d51a9208bf)
+![mvc-architecture](https://github.com/a0s21en5/The-Complete-C-Sharp-Bootcamp/assets/86140629/3cc1922a-a9dc-4d12-8d59-f3d51a9208bf)
