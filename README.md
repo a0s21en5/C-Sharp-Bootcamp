@@ -10,3 +10,4 @@ The Complete C Sharp Bootcamp
 >* MySQL.md
 >* Object Oriented Programming.md
 
+https://www.youtube.com/playlist?list=PLX07l0qxoHFLZftsVKyj3k9kfMca2uaPR
